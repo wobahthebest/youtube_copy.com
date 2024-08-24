@@ -1,0 +1,32 @@
+.sidebar {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    width: 72px;
+    background-color: white;
+    z-index: 2;
+    padding-top: 5px;
+}
+/* .SIDEBAR-S {
+    background-color: lightgoldenrodyellow;
+} */
+.m6 {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+ }
+.m6:hover {
+    background-color: rgb(196, 195, 195);
+}
+
+.m6 img {
+    width: 24px;
+    margin-bottom: 9px;
+}
+.m6 div {
+    font-size: 10px;
+}

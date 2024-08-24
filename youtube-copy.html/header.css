@@ -1,0 +1,222 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 57px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1  ;
+}
+
+.header img {
+    cursor: pointer;
+}
+
+.left-s {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.middle-s {
+    margin-left: 60px;
+    margin-right: 35px;
+    flex: 1;
+    max-width: 470px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-bar {
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;                                                              
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: inset 0px 1px 2px #eeeeee;
+    width: 0;
+}
+
+.search-bar::placeholder {
+    font-family: roboto, arial;
+    font-size: 16px;
+}
+
+.search {
+    height: 28px;
+    margin-top: 4px;
+}
+
+.button-search {
+    height: 40px;
+    width: 64px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    margin-right: 8px;
+    position: relative;
+}
+.button-search .tooltip {
+    font-size: 13px;
+    background-color: gray;
+    padding: 8px 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -38px;
+    color: rgb(251, 251, 251);
+    opacity: 0;
+    transition: opacity 0.2;
+    pointer-events: none;
+}
+
+.button-search:hover .tooltip {
+    opacity: 1;
+}
+
+.button-voice {
+    height: 24px ;
+}
+
+.voice .tooltip {
+    font-size: 13px;
+    background-color: gray;
+    padding: 8px 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -38px;
+    color: rgb(251, 251, 251);
+    opacity: 0;
+    transition: opacity 0.2;
+    pointer-events: none;
+}
+
+.voice:hover .tooltip {
+    opacity: 1;
+}
+
+
+.voice {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.right-s {
+    width: 182px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 24px;
+    margin-left: 29px;
+    flex-shrink: 0;
+}
+
+.uploud {
+    height: 24px;
+}
+
+.apps {
+    height: 24px;
+}
+
+.notifications {
+    height: 24px;
+}
+
+.notifications-button .tooltip {
+    font-size: 13px;
+    background-color: gray;
+    padding: 8px 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -38px;
+    color: rgb(251, 251, 251);
+    opacity: 0;
+    transition: opacity 0.2;
+    pointer-events: none;
+}
+
+.notifications-button:hover .tooltip {
+    opacity: 1;
+}
+
+.uploud-div .tooltip {
+    font-size: 13px;
+    background-color: gray;
+    padding: 8px 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -38px;
+    color: rgb(251, 251, 251);
+    opacity: 0;
+    transition: opacity 0.2;
+    pointer-events: none;
+}
+
+.uploud-div:hover .tooltip {
+    opacity: 1;
+}
+
+.apps-div .tooltip {
+    font-size: 13px;
+    background-color: gray;
+    padding: 8px 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -38px;
+    color: rgb(251, 251, 251);
+    opacity: 0;
+    transition: opacity 0.2;
+    pointer-events: none;
+}
+
+.apps-div:hover .tooltip {
+    opacity: 1;
+}
+
+.notifications-button {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    background-color: rgb(200, 0, 0);
+    padding: 2px 5px;
+    top: -2px;
+    right: -5px;
+    font-family: roboto, arial;
+    font-size: 11px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.pic-sh {
+    height: 22px;
+}
+
+.menu {
+    height: 25px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.yt-logo {
+    height: 20px;
+}

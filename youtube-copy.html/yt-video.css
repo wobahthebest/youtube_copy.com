@@ -1,0 +1,63 @@
+.main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 868px) {
+    .main-div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1124px) {
+    .main-div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1125px) {
+    .main-div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+} 
+
+.video-info {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+.profile-pic {
+    width: 36px;
+    border-radius: 50px;
+    margin-top: 8px;
+}
+
+.img {
+    width: 100%;
+}
+
+.video-title {
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+.video {
+    position: relative;
+    cursor: pointer;
+}
+
+.timer {
+    position: absolute;
+    bottom: 12px;
+    right: 4px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
